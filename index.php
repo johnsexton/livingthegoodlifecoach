@@ -24,7 +24,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#approach">My Approach</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#retire-ready">Retire Ready</a></li>
+                <li><a href="#retire-ready">Retire Ready™</a></li>
             </ul>
         </nav>
     </header>
@@ -151,8 +151,6 @@
             <h2>Retire Ready: Pre-Retirement Readiness and Wellness Workshop</h2>
             <p>A proactive readiness and wellness initiative that helps departments prepare personnel for successful retirement transitions. It directly supports morale, retention, and wellness objectives and can be delivered on-site as a one-day professional development program.</p>
         </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSSR8Bzo57Ylm3MPkKevUGdwu0LDr0u8YnkkPj5jUUoEzolg/viewform" class="btn">Apply / Join the Waitlist</a> 
-        <a href="https://calendly.com/gregfurnialifecoaching/welcome-call" class="btn">Schedule a 15-minute Call</a>
         <div class="section-content">
             <div class="two-col">
                 <div class="card">
