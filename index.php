@@ -17,7 +17,7 @@
             <div class="logo">
                 <a href="#top">
                     <img style="width: 40px;" src="img/logo/logo-circle.png" alt="Living The Good Life Coach"> 
-                    <h1>Greg Furnia Life Coach</h1>
+                    <h1>Greg Furnia &bull; Life Coach</h1>
                 </a>
             </div>
             <ul class="nav-links">
@@ -31,8 +31,8 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-content">
-            <img src="img/logo/challenge-coin.png" alt="Challenge coin with graphics of a handshake">
+        <div class="section-content">
+            <img class="align-right" src="img/logo/challenge-coin.png" alt="Challenge coin with graphics of a handshake">
             <div><h1 class="sr-only">Redefining Your Future</h1></div>
             <div><a href="mailto:gregfurnialifecoaching@gmail.com" class="btn">Book a Free Consultation</a></div>
             <div><a href="#retire-ready" class="btn">Register for Retire Ready</a></div>
@@ -45,7 +45,7 @@
             <h2>Meet Greg Furnia</h2>
             <p>“Because living the good life isn't about rank or title — it's about family, values, trust, and purpose.”</p>
         </div>
-        <div class="about-content card">
+        <div class="section-content card">
             <img src="img/greg.png" alt="Greg Furnia, Life Coach, in uniform with his K9 partner">
             <p>I spent 26 years serving as a first responder leading teams, mentoring future leaders, and navigating the challenges that come with high-performance, high-stakes environments. It was a career built on purpose, service, and pride. But like many in this line of work, I learned that success at work means little if it comes at the expense of family, health, or integrity.</p>
             <p>That realization became the foundation of my next mission: helping others proactively build balance between who they are at work and who they are at home before burnout, disconnection, or regret take hold.</p>
@@ -63,7 +63,7 @@
             <h2>My Coaching Approach</h2>
             <p>By combining personal growth with professional development, my mission is to empower you to excel in every facet of life. With a commitment to integrity, empathy, and a family-first mindset, I am here to help you build a legacy of effective leadership and personal fulfillment.</p>
         </div>
-        <div class="approach-content">
+        <div class="section-content two-col">
             <div class="card">
                 <h3>A Proactive, Family-First Approach to Living with Purpose</h3>
                 <p>My approach is simple but intentional — to help people live with purpose, balance, and clarity before life forces them to. I believe growth begins with honest reflection, clear values, and proactive action. By combining personal growth with professional development, my mission is to empower you to excel in every facet of life through integrity, empathy, and a family-first mindset.</p>
@@ -95,7 +95,7 @@
             <h2>Do We Make a Good Team?</h2>
             <p>As you are already aware, there are many life coaches, mentors, personal coaches, and Certified Professional Life Coaches available, each with unique backgrounds and areas of expertise, along with slightly different styles and approaches. I believe that in order for us to form the best team possible, we need to have a natural connection and share the same passion for working side by side to achieve our desired results.</p>
         </div>
-        <div class="good-team-content">
+        <div class="section-content two-col">
             <div class="card">
                 <h3>We <strong>will</strong> produce results if:</h3>
                 <ul>
@@ -119,65 +119,29 @@
     <!-- Services Section -->
     <section id="services">
         <div class="section-heading">
-            <h2>Choose Your Coaching Journey</h2>
+            <h2>Services</h2>
             <p>Begin Redefining Your Future</p>
         </div>
-
-        <div class="services-content">
-            <div class="card package">
-                <div class="package-header">
-                    <h3>Coaching Journey 1</h3>
-                    <h4 class="blue">1 Month Package - Jump Start Program</h4>
-                </div>
-                <div class="package-details">
-                    <ul>
-                        <li>Discovery Session</li>
-                        <li>1 x 45-minute Coaching Session weekly (total of 4)</li>
-                        <li>Research and Resource Sharing</li>
-                    </ul>
-                </div>
+        <div class="section-content two-col">
+            <div class="card">
+                <h3>Retire Ready™ Workshop</h3>
+                <p>A one-day, family-inclusive training that prepares first responders and their partners for a healthy, purpose-driven transition—improving long-term wellness, morale, and legacy within the agency.</p>
                 <a href="#contact" class="connect-btn blue">Connect Now</a>
             </div>
-
-            <div class="card package">
-                <div class="package-header">
-                    <h3>Coaching Journey 2</h3>
-                    <h4 class="red">3 Month Package - Transformation Program</h4>
-                </div>
-                <div class="package-details">
-                    <ul>
-                        <li>Discovery/Assessment Session</li>
-                        <li>Values Based Goal Setting</li>
-                        <li>10 x 45-minute coaching sessions (Over 12 weeks) (Includes session summaries)</li>
-                        <li>Intermediate support package</li>
-                        <li>Research and resource sharing</li>
-                        <li>1 x 45-minute follow-up coaching session after package is complete</li>
-                        <li>Payment plan option - 2 equal payments due each month for first 2 months</li>
-                    </ul>
-                </div>
+            <div class="card">
+                <h3>Retire Ready™ Group Coaching Cohort</h3>
+                <p>A 6-8 week virtual coaching experience for first responders approaching retirement, designed to strengthen identity, values alignment, and family connection through shared discussion and guided reflection.</p>
                 <a href="#contact" class="connect-btn red">Connect Now</a>
             </div>
-
-            <div class="card package">
-                <div class="package-header">
-                    <h3>Coaching Journey 3</h3>
-                    <h4 class="green">6 Month Package - Mastery Program</h4>
-                </div>
-                <div class="package-details">
-                    <ul>
-                        <li>Discovery/Assessment Session</li>
-                        <li>Values Based Long Term Strategic Goal Setting</li>
-                        <li>20 x 45-minute coaching sessions (Over 24 weeks) (Includes session summaries)</li>
-                        <li>Advanced support package</li>
-                        <li>Intensive client research and resource sharing</li>
-                        <li>Emergency video/audio calls when needed</li>
-                        <li>2 x 30-minute follow-up coaching session after package is complete</li>
-                        <li>Follow-up email support after completion</li>
-                        <li>Payment plan option - 3 equal payments due each month for first 3 months</li>
-                        <li>10% discount if paid in full at start of program</li>
-                    </ul>
-                </div>
+            <div class="card">
+                <h3>1:1 Coaching for Career and Life Transitions</h3>
+                <p>Personalized, values-based coaching focused on leadership, purpose, and emotional intelligence, helping first responders and their families build balance, clarity, and resilience during career or life transitions.</p>
                 <a href="#contact" class="connect-btn green">Connect Now</a>
+            </div>
+            <div class="card">
+                <h3>New Hire & Academy Sessions</h3>
+                <p>Proactive, family-centered strategies that help new first responders build long, fulfilling careers without sacrificing relationships or personal freedom—enhancing morale, retention, and long-term productivity across the organization.</p>
+                <a href="#contact" class="connect-btn blue">Connect Now</a>
             </div>
         </div>
     </section>
@@ -185,13 +149,51 @@
     <!-- Retire Ready Section -->
     <section id="retire-ready">
         <div class="section-heading">
-            <h2>Retire Ready</h2>
+            <h2>Retire Ready: Pre-Retirement Readiness and Wellness Workshop</h2>
             <p>A proactive readiness and wellness initiative that helps departments prepare personnel for successful retirement transitions. It directly supports morale, retention, and wellness objectives and can be delivered on-site as a one-day professional development program.</p>
         </div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSSR8Bzo57Ylm3MPkKevUGdwu0LDr0u8YnkkPj5jUUoEzolg/viewform" class="btn">Apply / Join the Waitlist</a> 
+        <a href="https://calendly.com/gregfurnialifecoaching/welcome-call" class="btn">Schedule a 15-minute Call</a>
         <div class="section-content">
-            <p>Content goes here.</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfSSR8Bzo57Ylm3MPkKevUGdwu0LDr0u8YnkkPj5jUUoEzolg/viewform" class="btn">Apply / Join the Waitlist</a> 
-            <a href="https://calendly.com/gregfurnialifecoaching/welcome-call" class="btn">Schedule a 15-minute Call</a>
+            <div class="two-col">
+                <div class="card">
+                    <h3>For Agencies</h3>
+                    <p>Agencies can host up to 25 participants per session, including family members, at a fixed program cost.</p>
+                    <ul>
+                        <li>“This program is non-clinical, educational, and wellness-based.”</li>
+                        <li>“Developed and delivered by a certified professional development coach with 26 years of federal law enforcement experience.”</li>
+                        <li>“Fully portable for on-site or regional delivery; compliant with agency training and travel standards.”</li>
+                        <li>“Invoices provided with detailed itemization; vendor W-9 and documentation available upon request.”</li>
+                        <li>“This program meets agency wellness and leadership development criteria under Title [insert applicable code for your state if needed].”</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Program Description</h3>
+                    <p>A one-day, instructor-led professional development program for first responders and their families. The session addresses proactive identity transition, purpose alignment, family and partner awareness, emotional wellness, and post-career lifestyle readiness.</p>
+                    <p>Participants leave with access to shared wellness and transition resources, peer support networks, and vetted service provider information for continued readiness beyond the classroom.</p>
+                </div>
+                <div class="card">
+                    <h3>Objectives</h3>
+                    <ul>
+                        <li>Enhance resilience and retention among senior personnel</li>
+                        <li>Support family inclusion in retirement transition planning</li>
+                        <li>Mitigate post-service wellness and morale challenges</li>
+                        <li>Strengthen departmental readiness and reputation</li>
+                        <li>Provide access to ongoing resources and peer networks that sustain long-term wellness and connection</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Procurement Category</h3>
+                    <ul>
+                        <li>Training and Professional Development</li>
+                        <li>Employee Wellness and Retention Initiative</li>
+                        <li>Family Support and Resilience Education</li>
+                        <li>Resource & Referral Awareness Training (non-clinical wellness support)</li>
+                    </ul>
+
+
+                </div>
+            </div>
         </div>
     </section>
 
