@@ -35,7 +35,6 @@
             <img class="align-right" src="img/logo/challenge-coin.png" alt="Challenge coin with graphics of a handshake">
             <div><h1 class="sr-only">Redefining Your Future</h1></div>
             <div><a href="mailto:gregfurnialifecoaching@gmail.com" class="btn">Book a Free Consultation</a></div>
-            <div><a href="#retire-ready" class="btn">Register for Retire Ready</a></div>
         </div>
     </section>
 
