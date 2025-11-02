@@ -131,6 +131,10 @@ header.scrolled .nav-links a {
     color: var(--gold)
 }
 
+header.scrolled .nav-links a::after {
+    background-color: var(--gold);
+}
+
 #hero {
     margin-top: -75px;
     background: url('img/hero.jpg') no-repeat center center/cover;
@@ -211,15 +215,15 @@ section {
     margin-bottom: 1rem;
 }
 
-.section-content .card:nth-child(3n + 1) h3 {
+.card:nth-child(3n + 1) h3 {
     border-color: var(--blue);
 }
 
-.section-content .card:nth-child(3n + 2) h3 {
+.card:nth-child(3n + 2) h3 {
     border-color: var(--red);
 }  
 
-.section-content .card:nth-child(3n) h3 {
+.card:nth-child(3n) h3 {
     border-color: var(--green);
 }
 
@@ -231,7 +235,8 @@ section {
 }
 
 .connect-btn {
-    display: inline-block;  
+    display: inline-block; 
+    margin: 2rem 0 0 0; 
     padding: 0.75rem 1rem;
     text-align: center;
     border-radius: 6px;
