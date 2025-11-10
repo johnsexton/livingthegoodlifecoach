@@ -17,14 +17,14 @@
             <div class="logo">
                 <a href="#top">
                     <img style="width: 40px;" src="img/logo/logo-circle.png" alt="Living The Good Life Coach"> 
-                    <h1>Greg Furnia &bull; Life Coach</h1>
+                    <h1>Greg Furnia</h1>
                 </a>
             </div>
             <ul class="nav-links">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#approach">My Approach</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#retire-ready">Retire Ready™</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </nav>
     </header>
@@ -125,22 +125,22 @@
             <div class="card">
                 <h3>Retire Ready™ Workshop</h3>
                 <p>A one-day, family-inclusive training that prepares first responders and their partners for a healthy, purpose-driven transition—improving long-term wellness, morale, and legacy within the agency.</p>
-                <a href="#contact" class="connect-btn blue">Connect Now</a>
+                <a href="#contact" class="connect-btn blue">Learn More</a>
             </div>
             <div class="card">
                 <h3>Retire Ready™ Group Coaching Cohort</h3>
                 <p>A 6-8 week virtual coaching experience for first responders approaching retirement, designed to strengthen identity, values alignment, and family connection through shared discussion and guided reflection.</p>
-                <a href="#contact" class="connect-btn red">Connect Now</a>
+                <a href="#contact" class="connect-btn red">Learn More</a>
             </div>
             <div class="card">
                 <h3>1:1 Coaching for Career and Life Transitions</h3>
                 <p>Personalized, values-based coaching focused on leadership, purpose, and emotional intelligence, helping first responders and their families build balance, clarity, and resilience during career or life transitions.</p>
-                <a href="#contact" class="connect-btn green">Connect Now</a>
+                <a href="#contact" class="connect-btn green">Learn More</a>
             </div>
             <div class="card">
                 <h3>New Hire & Academy Sessions</h3>
                 <p>Proactive, family-centered strategies that help new first responders build long, fulfilling careers without sacrificing relationships or personal freedom—enhancing morale, retention, and long-term productivity across the organization.</p>
-                <a href="#contact" class="connect-btn blue">Connect Now</a>
+                <a href="#contact" class="connect-btn blue">Learn More</a>
             </div>
         </div>
     </section>
@@ -180,7 +180,7 @@
                     </ul>
                 </div>
                 <div class="card">
-                    <h3>Procurement Category</h3>
+                    <h3>Procurement Categories</h3>
                     <ul>
                         <li>Training and Professional Development</li>
                         <li>Employee Wellness and Retention Initiative</li>
