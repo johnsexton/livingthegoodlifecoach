@@ -321,6 +321,17 @@
         </div>
     </section>
 
+    <section id="faq">
+        <div class="section-heading">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="section-content">
+            <div class="card">
+                <p>Content goes here.</p>
+            </div>
+        </div>
+    </section>
+
     <footer class="two-col">
         <div class="left">
             <p>&copy; <?php echo date("Y"); ?> Living The Good Life Coach. All rights reserved.</p>
