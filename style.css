@@ -211,7 +211,7 @@ section {
 .section-heading {
     margin: 2rem auto 2rem;
     padding: 1.5rem 5rem;
-    color: var(--accent);
+    color: var(--grey);
     background: var(--black);
     text-align: center;
 }
