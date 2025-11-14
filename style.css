@@ -40,16 +40,16 @@ ul, li {
 
 /* Screen Reader Only */
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-  border: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Custom Styles */
@@ -58,37 +58,12 @@ header {
     top: 0;
     z-index: 1000;
     vertical-align: middle;
-    /* Smooth transition for background */
     transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-    background-color: transparent; /* Default */
-    max-height: 75px;
+    background-color: transparent;
+    max-height: 80px;
 }
 
-.site-title {
-    margin: 0;
-    padding-left: .5rem;
-    font-size: 1.8rem;
-    line-height: 1rem;
-    font-weight: bold;
-    display: inline;
-}
-
-.subtitle {
-    margin-left: 3.3rem;
-    font-size: 1rem;
-    font-weight: normal;
-    display: block;
-}
-
-.logo a {
-    text-decoration: none;
-    color: var(--black);
-}
-
-.logo img {
-    margin-bottom: -20px;
-}
-
+/* --- layout tweaks that help both mobile & desktop --- */
 nav {
     display: flex;
     justify-content: space-between;
@@ -96,54 +71,157 @@ nav {
     padding: 1rem 1.5rem;
     font-size: 1.1rem;
     font-weight: bold;
+    position: relative; /* anchor the dropdown panel */
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: .6rem;
+.logo a {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
+    color: var(--black);
 }
 
-.nav-links a {
+.logo img { width: 50px; }
+
+.site-title {
+    margin: 0;
+    padding-left: .5rem;
+    font-size: 1.6rem;     /* slightly smaller for tight mobile headers */
+    line-height: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.subtitle {
+    display: none;
+}
+
+/* --- mobile-first nav --- */
+.nav-toggle { 
+  position: absolute;
+  left: -9999px; 
+  /* keeps it focusable by label without affecting layout */
+}
+
+/* Hamburger button */
+/* Hamburger button */
+.menu-btn {
+  width: 36px;
+  height: 24px;
   position: relative;
-  padding: .5rem .5rem;
-  text-decoration: none;
-  color: var(--black)
+  cursor: pointer;
+  display: inline-block;
 }
 
-.nav-links a::after {
+/* The 3 bars */
+.menu-btn::before,
+.menu-btn::after,
+.menu-btn span {
   content: "";
   position: absolute;
-  left: 50%;               /* start at the center */
-  bottom: 0;
-  height: 2px;
-  width: 0%;
+  left: 0;
+  width: 100%;
+  height: 3px;
   background-color: var(--black);
-  transform: translateX(-50%); /* shift back by half width */
-  transition: width 0.3s ease;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  border-radius: 2px;
 }
 
-.nav-links a:hover::after {
-  width: 100%; /* expands outward from the center */
+/* middle bar element */
+.menu-btn span {
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-/* Background when scrolled */
+/* top and bottom bars */
+.menu-btn::before { top: 0; }
+.menu-btn::after { bottom: 0; }
+
+/* Animate to "X" when toggled */
+#nav-toggle:checked + .menu-btn::before {
+  transform: translateY(10px) rotate(45deg);
+}
+#nav-toggle:checked + .menu-btn::after {
+  transform: translateY(-10px) rotate(-45deg);
+}
+#nav-toggle:checked + .menu-btn span {
+  opacity: 0;
+}
+
+/* Change color when scrolled */
 header.scrolled {
-    background-color: var(--black);
-    backdrop-filter: blur(5px);
+  background-color: var(--black);
 }
-
-header.scrolled h1,
-header.scrolled .nav-links a {
-    color: var(--accent)
+header.scrolled a { 
+  color: var(--accent);
 }
-
-header.scrolled .nav-links a::after {
+header.scrolled .menu-btn::before,
+header.scrolled .menu-btn::after,
+header.scrolled .menu-btn span {
     background-color: var(--accent);
 }
 
+
+/* Dropdown panel (hidden by default on mobile) */
+.nav-links {
+    display: none;                /* hidden until toggled */
+    margin: 0;
+    position: absolute;
+    top: 86%;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    gap: 0;
+    list-style: none;
+    background: var(--black);
+    backdrop-filter: inherit;
+    z-index: 1100;
+    text-align: center;
+}
+
+.nav-links li { margin: 0; }
+.nav-links a {
+  position: relative;
+  display: block;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  color: var(--accent);
+  border-top: 1px solid var(--grey);
+}
+
+/* underline hover effect retained */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: .6rem;
+  height: 2px;
+  width: 0%;
+}
+.nav-links a:hover::after { width: 100%; }
+
+/* Toggle open */
+#nav-toggle:checked ~ .nav-links { display: flex; }
+
+/* Animate hamburger to X when open */
+#nav-toggle:checked + .menu-btn {
+  background-color: transparent;             /* hide middle line */
+}
+#nav-toggle:checked + .menu-btn::before {
+  transform: translateY(10px) rotate(45deg);
+}
+#nav-toggle:checked + .menu-btn::after {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .menu-btn, .menu-btn::before, .menu-btn::after, .nav-links a::after { transition: none; }
+}
+
 #hero {
-    margin-top: -75px;
+    margin-top: -80px;
     background: url('img/newhero.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
@@ -155,7 +233,7 @@ header.scrolled .nav-links a::after {
 
 #hero img {
     margin: 2rem auto 0;
-    width: 400px;
+    width: 300px;
 }
 
 #hero .goodlife {
@@ -306,8 +384,35 @@ footer .right {
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
 
+    .menu-btn { display: none; }
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        gap: .6rem;
+        background: transparent;
+        border-top: 0;
+        padding: 0;
+    }
+    .nav-links a {
+        padding: .5rem .5rem;
+        color: var(--black);
+        border-top: none;
+    }
+    .nav-links a::after { 
+        bottom: 0;
+        background-color: var(--black);
+        transform: translateX(-50%);
+        transition: width 0.3s ease; 
+    }
+    header.scrolled .nav-links a::after {
+        background-color: var(--accent);
+    }
+    
+    .site-title { font-size: 1.8rem; }
+
     #hero img {
-        width: 500px;
+        width: 350px;
     }
 
     #hero .goodlife {
@@ -324,4 +429,15 @@ footer .right {
         float: right;
         margin: 0 0 1.5rem 1.5rem;
     }
+}
+
+@media (min-width: 900px) {
+
+    .subtitle { 
+        display: block; 
+        margin: .6rem 0 0 0; 
+        font-size: 1rem; 
+        font-weight: normal;
+    }
+
 }

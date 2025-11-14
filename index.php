@@ -11,16 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
-    <!-- Navigation -->
+    
+    <!-- Site Header and Navigation -->
     <header id="header">
         <nav>
             <div class="logo">
                 <a href="#top">
-                    <img style="width: 40px;" src="img/logo/badge-sm.png" alt="Living The Good Life Coach"> 
-                    <h1 class="site-title">Greg Furnia <span class="subtitle">Certified Coach &bullet; First Responder wellness & Leadership Training</span></h1>
+                    <img src="img/logo/badge-sm.png" alt="Living The Good Life Coach">
+                    <h1 class="site-title">Greg Furnia <span class="subtitle">Certified Coach &bullet; First Responder Wellness & Leadership Training</span></h1>
                 </a>
             </div>
-            <ul class="nav-links">
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+            <label for="nav-toggle" class="menu-btn" aria-label="Toggle navigation" aria-controls="primary-nav">
+                <span></span>
+            </label>
+
+            <ul id="primary-nav" class="nav-links">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#approach">My Approach</a></li>
                 <li><a href="#services">Services</a></li>
