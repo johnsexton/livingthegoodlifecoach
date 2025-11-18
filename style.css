@@ -224,8 +224,9 @@ header.scrolled .menu-btn span {
 
 #hero {
     margin-top: -90px;
+    padding: 5rem 2rem;
     background: url('img/newhero.jpg') no-repeat center center/cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,8 +235,8 @@ header.scrolled .menu-btn span {
 }
 
 #hero img {
-    margin: 2rem auto 0;
-    width: 300px;
+    margin: 0 auto;
+    width: 280px;
 }
 
 #hero .goodlife {
@@ -517,7 +518,7 @@ footer .right {
     .site-title { font-size: 1.8rem; }
 
     #hero img {
-        width: 350px;
+        width: 300px;
     }
 
     #hero .goodlife {
