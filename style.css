@@ -225,7 +225,7 @@ header.scrolled .menu-btn span {
 #hero {
     margin-top: -90px;
     padding: 5rem 2rem;
-    background: url('img/newhero.jpg') no-repeat center center/cover;
+    background: url('img/hero.jpg') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;

@@ -17,7 +17,7 @@
         <nav>
             <div class="logo">
                 <a href="#top">
-                    <img src="img/logo/badge-sm.png" alt="Living The Good Life Coach">
+                    <img src="img/logo-sm.png" alt="Living The Good Life Coach">
                     <h1 class="site-title">Greg Furnia <span class="subtitle">Certified Coach &bullet; First Responder Wellness & Leadership Training</span></h1>
                 </a>
             </div>
@@ -40,7 +40,7 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="section-content">
-            <img class="align-right" src="img/logo/badge1.png" alt="Challenge coin with graphics of a handshake">
+            <img class="align-right" src="img/logo.png" alt="Challenge coin with graphics of a handshake">
             <div class="goodlife">Ready to Start Living the Good Life?</div>
             <div><a href="#services" class="hero-btn">View The Services I Offer</a></div>
         </div>
@@ -446,8 +446,8 @@
             <a href="mailto:gregfurnialifecoaching@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/greg-furnia-livingthegoodlifecoach/">Linkedin</a>
         </div>
         <div class="right">
-            <a href="https://www.credly.com/badges/1eeefa96-cd17-494b-b354-d770519b2a85/embedded"><img src="img/icf.png" alt="International Coach Federation Credentialed Coach Badge" style="width: 100px;"></a>
-            <a href="https://www.coachtrainingalliance.com/"><img src="img/certifiedcoach.png" alt="Certified Coach Badge" style="width: 180px;"></a>
+            <a href="https://www.credly.com/badges/1eeefa96-cd17-494b-b354-d770519b2a85/embedded"><img src="img/cred-icfmember.png" alt="International Coach Federation Credentialed Coach Badge" style="width: 100px;"></a>
+            <a href="https://www.coachtrainingalliance.com/"><img src="img/cred-ctacertifiedcoach.png" alt="Certified Coach Badge" style="width: 180px;"></a>
         </div>
     </footer>
 
