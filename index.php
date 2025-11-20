@@ -40,7 +40,7 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="section-content">
-            <img class="align-right" src="img/logo.png" alt="Challenge coin with graphics of a handshake">
+            <img class="align-right" src="img/logo.png" alt="Badge with a green, red, and blue path leading toward a gold star with the words Family First, Trust, Purpose, Values">
             <div class="goodlife">Ready to Start Living the Good Life?</div>
             <div><a href="#services" class="hero-btn">View The Services I Offer</a></div>
         </div>
