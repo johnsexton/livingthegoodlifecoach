@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* Reset Text Styles */
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +52,12 @@ ul, li {
     border: 0;
 }
 
-/* Custom Styles */
+/***************
+*
+* Custom Styles
+*
+***************/
+
 header {
     position: sticky;
     top: 0;
@@ -63,7 +68,6 @@ header {
     max-height: 80px;
 }
 
-/* --- layout tweaks that help both mobile & desktop --- */
 nav {
     display: flex;
     justify-content: space-between;
@@ -71,7 +75,7 @@ nav {
     padding: 1rem 1.5rem;
     font-size: 1.1rem;
     font-weight: bold;
-    position: relative; /* anchor the dropdown panel */
+    position: relative;
 }
 
 .logo a {
@@ -82,12 +86,14 @@ nav {
     color: var(--black);
 }
 
-.logo img { width: 40px; }
+.logo img { 
+    width: 40px; 
+}
 
 .site-title {
     margin: 0;
     padding-left: .5rem;
-    font-size: 1.6rem;     /* slightly smaller for tight mobile headers */
+    font-size: 1.6rem;
     line-height: 1.1rem;
     font-weight: bold;
     display: inline-block;
@@ -99,41 +105,38 @@ nav {
     display: block;
 }
 
-/* --- mobile-first nav --- */
 .nav-toggle { 
-  position: absolute;
-  left: -9999px; 
-  /* keeps it focusable by label without affecting layout */
+    position: absolute;
+    left: -9999px; 
 }
 
 /* Hamburger button */
-/* Hamburger button */
 .menu-btn {
-  width: 36px;
-  height: 24px;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
+    width: 36px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
 }
 
 /* The 3 bars */
 .menu-btn::before,
 .menu-btn::after,
 .menu-btn span {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: var(--black);
-  transition: transform 0.25s ease, opacity 0.25s ease;
-  border-radius: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--black);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    border-radius: 2px;
 }
 
 /* middle bar element */
 .menu-btn span {
-  top: 50%;
-  transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* top and bottom bars */
@@ -142,21 +145,21 @@ nav {
 
 /* Animate to "X" when toggled */
 #nav-toggle:checked + .menu-btn::before {
-  transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
 }
 #nav-toggle:checked + .menu-btn::after {
-  transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
 }
 #nav-toggle:checked + .menu-btn span {
-  opacity: 0;
+    opacity: 0;
 }
 
 /* Change color when scrolled */
 header.scrolled {
-  background-color: var(--black);
+    background-color: var(--black);
 }
 header.scrolled a { 
-  color: var(--accent);
+    color: var(--accent);
 }
 header.scrolled .menu-btn::before,
 header.scrolled .menu-btn::after,
@@ -164,10 +167,8 @@ header.scrolled .menu-btn span {
     background-color: var(--accent);
 }
 
-
-/* Dropdown panel (hidden by default on mobile) */
 .nav-links {
-    display: none;                /* hidden until toggled */
+    display: none;
     margin: 0;
     position: absolute;
     top: 86%;
@@ -182,24 +183,26 @@ header.scrolled .menu-btn span {
     text-align: center;
 }
 
-.nav-links li { margin: 0; }
-.nav-links a {
-  position: relative;
-  display: block;
-  padding: 1rem 1.25rem;
-  text-decoration: none;
-  color: var(--accent);
-  border-top: 1px solid var(--grey);
+.nav-links li { 
+    margin: 0; 
 }
 
-/* underline hover effect retained */
+.nav-links a {
+    position: relative;
+    display: block;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    color: var(--accent);
+    border-top: 1px solid var(--grey);
+}
+
 .nav-links a::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: .6rem;
-  height: 2px;
-  width: 0%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: .6rem;
+    height: 2px;
+    width: 0%;
 }
 .nav-links a:hover::after { width: 100%; }
 
@@ -208,18 +211,16 @@ header.scrolled .menu-btn span {
 
 /* Animate hamburger to X when open */
 #nav-toggle:checked + .menu-btn {
-  background-color: transparent;             /* hide middle line */
+    background-color: transparent; /* hides middle line */
 }
 #nav-toggle:checked + .menu-btn::before {
-  transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
 }
 #nav-toggle:checked + .menu-btn::after {
-  transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
 }
-
-/* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .menu-btn, .menu-btn::before, .menu-btn::after, .nav-links a::after { transition: none; }
+    .menu-btn, .menu-btn::before, .menu-btn::after, .nav-links a::after { transition: none; }
 }
 
 #hero {
@@ -242,13 +243,6 @@ header.scrolled .menu-btn span {
 #hero .goodlife {
     font-family: 'Delicious Handrawn', cursive;
     font-size: 2rem;
-    /*
-    text-shadow:
-    -2px -2px 0 var(--black),
-     2px -2px 0 var(--black),
-    -2px  2px 0 var(--black),
-     2px  2px 0 var(--black);
-     */
 }
 
 .hero-btn {
@@ -263,8 +257,8 @@ header.scrolled .menu-btn span {
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
-
 }
+
 .hero-btn:hover {
     background: var(--accent);
 }
@@ -386,14 +380,11 @@ p:has(+ a.learn-more-btn) {
     background: var(--green);
 }
 
-
-
-
 :root {
   --faq-dur: 320ms;
   --faq-ease: cubic-bezier(.2,.8,.2,1);
 }
-/* Card look */
+
 details {
   border: 1px solid #e5e7eb;
   border-radius: 12px;
@@ -403,69 +394,62 @@ details {
   box-shadow: 0 1px 2px rgba(0,0,0,.05);
   transition: box-shadow var(--faq-dur) var(--faq-ease), transform var(--faq-dur) var(--faq-ease);
 }
-details:hover { box-shadow: 0 6px 14px rgba(0,0,0,.08); transform: translateY(-1px); }
+
+details:hover {
+    box-shadow: 0 6px 14px rgba(0,0,0,.08); 
+    transform: translateY(-1px);
+}
 
 summary {
-  cursor: pointer;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
+    cursor: pointer;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
     font-size: 1.5rem;
     font-family: Oswald, sans-serif;
 }
-summary::marker { content: ""; } /* hide default marker */
+summary::marker { content: ""; }
 
 summary::after {
-  content: "";
-  inline-size: 1rem;
-  block-size: 1rem;
-  border: 2px solid currentColor;
-  border-left: 0;
-  border-top: 0;
-  transform: rotate(45deg);         /* right-pointing chevron */
-  transition: transform var(--faq-dur) var(--faq-ease);
+    content: "";
+    inline-size: 1rem;
+    block-size: 1rem;
+    border: 2px solid currentColor;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg); /* right-pointing chevron */
+    transition: transform var(--faq-dur) var(--faq-ease);
 }
 details[open] summary::after {
-  transform: rotate(225deg);        /* down-pointing chevron */
+    transform: rotate(225deg); /* down-pointing chevron */
 }
 
-/* The magic: smooth height via grid 0fr → 1fr */
 .faq-collapse {
-  display: grid;
-  grid-template-rows: 0fr;          /* closed */
-  transition: grid-template-rows var(--faq-dur) var(--faq-ease),
-              opacity var(--faq-dur) var(--faq-ease);
-  opacity: 0;
+    display: grid;
+    grid-template-rows: 0fr; /* closed */
+    transition: grid-template-rows var(--faq-dur) var(--faq-ease),
+                opacity var(--faq-dur) var(--faq-ease);
+    opacity: 0;
 }
 details[open] .faq-collapse {
-  grid-template-rows: 1fr;          /* open */
-  opacity: 1;
+    grid-template-rows: 1fr; /* open */
+    opacity: 1;
 }
 .faq-content {
-  overflow: hidden;                  /* clip content during animation */
+    overflow: hidden; /* clip content during animation */
 }
 
-/* Spacing for answer */
 .faq-content > * {
-  margin-top: .5rem;
-  line-height: 1.6;
+    margin-top: .5rem;
+    line-height: 1.6;
 }
 
-/* Focus visibility */
 summary:focus-visible {
-  outline: 3px solid #2563eb;
-  border-radius: 8px;
-  outline-offset: 4px;
+    outline: 3px solid #2563eb;
+    border-radius: 8px;
+    outline-offset: 4px;
 }
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; }
-}
-
-
-
 
 footer {
     padding: 4rem 2rem;
@@ -487,6 +471,10 @@ footer .right {
 
 
 /* MEDIA QUERIES */
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+}
+
 @media (min-width: 768px) {
 
     .menu-btn { display: none; }
