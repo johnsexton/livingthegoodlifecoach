@@ -98,30 +98,6 @@
             </div>
             <div></div>
         </div>
-        <!--
-        <div class="section-heading">
-            <h2>Do We Make a Good Team?</h2>
-            <p>As you are already aware, there are many life coaches, mentors, personal coaches, and Certified Professional Life Coaches available, each with unique backgrounds and areas of expertise, along with slightly different styles and approaches. I believe that in order for us to form the best team possible, we need to have a natural connection and share the same passion for working side by side to achieve our desired results.</p>
-        </div>
-        <div class="section-content two-col">
-            <div class="card">
-                <h3>We <strong>will</strong> produce results if:</h3>
-                <ul>
-                    <li>Our stories connect and share similar values and beliefs.</li>
-                    <li>You are 100% committed to change and will do everything it takes to achieve results.</li>
-                    <li>You are willing to invest in the pursuit of your own happiness.</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>We <strong>won't</strong> produce results if:</h3>
-                <ul>
-                    <li>You are persuaded to work with a personal coach without genuine commitment.</li>
-                    <li>You are more worried about the cost of a personal coach than investing in your happiness.</li>
-                    <li>You are not 100% committed to achieving the results you are seeking.</li>
-                </ul>
-            </div>
-        </div>
-        -->
     </section>
 
     <!-- Services Section -->
@@ -163,7 +139,7 @@
         <div class="section-heading">
             <h2>Retire Ready Pre-Retirement Readiness and Wellness Training</h2>
             <p>A proactive readiness and wellness initiative that helps departments prepare personnel for successful retirement transitions. It directly supports morale, retention, and wellness objectives and can be delivered on-site as a one-day professional development program.</p>
-            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Retire Ready Inquiry">Email to Inquire</a> <a class="contact-btn" href="https://calendar.app.google/FHZYaan8P884bkJEA">Schedule a Consulation</a>
+            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Retire Ready Inquiry">Email to Inquire</a>
         </div>
         <div class="section-content">
             <div class="two-col">
@@ -211,7 +187,7 @@
         <div class="section-heading">
             <h2>Built to Last Wellness and Leadership Training</h2>
             <p>A proactive approach to building a fulfilling personal and professional life in service.</p>
-            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Built to Last Inquiry">Email to Inquire</a> <a class="contact-btn" href="https://calendar.app.google/SL1HkGPKUbK3dCD99">Schedule a Consulation</a>
+            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Built to Last Inquiry">Email to Inquire</a>
         </div>
         <div class="section-content">
             <div class="two-col">
@@ -253,11 +229,6 @@
                         <li>Resource & Referral Awareness Training (non-clinical wellness support)</li>
                     </ul>
                 </div>
-                <div class="card">
-                    <h3>Why It Works</h3>
-                    <p>Developed and led by Greg Furnia, a Certified Personal & Professional Development Coach and retired Special Operations Supervisor with over 25 years of first responder experience, Built to Last combines real-world insight with practical, values-driven tools.</p>
-                    <p>This is not another classroom lecture — it's an honest, interactive approach to building habits that last a lifetime, both in service and at home.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -266,7 +237,7 @@
     <section id="one-on-one">
         <div class="section-heading">
             <h2>Personal & Professional Development</h2>
-            <p>Growth starts with connection—and with a proactive plan. Through personalized one-on-one sessions, I help first responders and their families strengthen leadership, navigate career and life transitions, and build balance between work and home. Each session draws on real-world experience, shared values, and a family-first approach—empowering you to take charge of your growth, prepare for what's next, and live your version of the good life.</p>
+            <p>Helping first responders proactively lead, grow, and thrive at work and at home.</p>
             <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=One-on-One Coaching Inquiry">Email to Inquire</a> <a class="contact-btn" href="https://calendar.app.google/5EtJyNkqhmSX8zK78">Schedule a Consultation</a>
         </div>
         <div class="section-content">
@@ -279,25 +250,21 @@
                 <div class="card">
                     <h3>What to Expect</h3>
                     <ul>
-                        <li>Private, personalized sessions tailored to your goals</li>
-                        <li>Guidance for leadership development, life transitions, and personal growth</li>
-                        <li>Real-world tools and proactive strategies to create sustainable balance</li>
-                        <li>A trusted space to reflect, plan, and take action with accountability</li>
+                        <li>Private, judgment-free conversations focused on your specific goals</li>
+                        <li>Clear action steps around leadership, communication, and life transitions</li>
+                        <li>A mix of honest feedback, support, and accountability</li>
+                        <li>Practical strategies you can apply immediately—on shift, at home, and in your next chapter</li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h3>Who it's For</h3>
-                    <p>Agencies can host up to 25 participants per session, including family members, at a fixed program cost.</p>
+                    <h3>Who It's For</h3>
                     <ul>
-                        <li>Current and retired first responders</li>
-                        <li>Spouses and family members navigating transitions together</li>
-                        <li>Leaders seeking to improve communication, connection, and performance</li>
-                        <li>Anyone ready to live intentionally—with clarity, confidence, and purpose</li>
+                        <li>Current or retired first responders navigating stress, change, or “what's next?”</li>
+                        <li>Spouses/partners who want better communication and more alignment at home</li>
+                        <li>Leaders who want to show up better for their teams and their families</li>
+                        <li>Anyone who wants a trusted coach in their corner, not another generic training</li>
                     </ul>
                 </div>
-                <div class="card">
-                    <h3>My Approach</h3>
-                    <p>This isn't just about career planning—it's about building a life grounded in what matters most. Through a proactive, family-first process, I help you align your values, strengths, and goals so you can live your version of the good life with purpose, balance, and fulfillment.</p>
                 </div>
             </div>
         </div>
@@ -308,34 +275,31 @@
         <div class="section-heading">
             <h2>Retire Ready Group Coaching</h2>
             <p>A proactive, family-first approach to life after the badge.</p>
-            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Retire Ready Cohort Inquiry">Email to Inquire</a> <a class="contact-btn" href="https://calendar.app.google/D7Dfm7x4RLALtJoo6">Schedule a Consultation</a>
+            <a class="contact-btn" href="mailto:gregfurnialifecoaching@gmail.com?subject=Retire Ready Cohort Inquiry">Email to Inquire</a>
         </div>
         <div class="section-content">
             <div class="two-col">
                 <div class="card">
                     <h3>Overview</h3>
                     <p>Growth starts with connection and with a plan built around your personal retirement goals. This small, closed-group program is designed for first responders and their families who want a supportive space to strengthen identity and purpose, align as a family, and design a clear next chapter.</p>
-                    <p>Across eight weeks, you'll work in a confidential cohort (6-8 seats) that blends guided discussion, peer resource sharing, real-life experiences, and guided reflection plus 15-minute 1:1 laser coaching between sessions to turn insight into action.</p>
-                </div>
-                <div class="card">
-                    <h3>Who It's For</h3>
-                    <ul>
-                        <li>Current or retiring <strong>first responders</strong> (police, fire, EMS, dispatch, corrections, federal)</li>
-                        <li><strong>Spouses/partners and families</strong> navigating the transition together</li>
-                        <li>Those seeking clarity on <strong>identity & purpose</strong> beyond the role</li>
-                        <li>Anyone ready to live intentionally—with <strong>structure, accountability, and community</strong></li>
-                    </ul>
+                    <p>Across eight weeks, you'll work in a confidential cohort (6–8 seats) that blends guided discussion, peer resource sharing, real-life experiences, and guided reflection plus 15-minute 1:1 laser coaching between sessions to turn insight into action.</p>
                 </div>
                 <div class="card">
                     <h3>What to Expect</h3>
                     <ul>
-                        <li><strong>Cohort rhythm that builds momentum</strong>: 8 weeks, bi-weekly 90-minute sessions, 6-8 participants</li>
-                        <li><strong>Between-session support</strong>: a 15-minute 1:1 with Greg after each group meeting</li>
-                        <li><strong>Clear communication framework</strong>: Laser Speaking (concise 2-minute shares) for equitable airtime</li>
-                        <li><strong>Real-world tools</strong>: practical exercises, routines, and resources you can use immediately</li>
-                        <li><strong>Values & family alignment</strong>: design a 12-month plan you'll actually act on—together</li>
-                        <li><strong>Confidential, high-trust room</strong>: coaching mindset (curiosity over advice) and shared agreements</li>
-                        <li><strong>Participant-shaped topics</strong>: the group's priorities guide where we go next</li>
+                        <li>Live, interactive Zoom sessions with a small, closed group</li>
+                        <li>Guided conversations, reflection prompts, and simple tools you can use at home</li>
+                        <li>Real talk about the emotional, relational, and lifestyle shifts of retirement</li>
+                        <li>Access to peer perspectives, shared resources, and between-session touchpoints</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Who It's For</h3>
+                    <ul>
+                        <li>Current or retiring first responders (police, fire, EMS, dispatch, corrections, federal)</li>
+                        <li>Spouses/partners and families navigating the transition together</li>
+                        <li>Those seeking clarity on identity and purpose beyond the role</li>
+                        <li>Anyone ready to live intentionally—with structure, accountability, and community</li>
                     </ul>
                 </div>
             </div>
@@ -359,88 +323,124 @@
         </div>
     </section>
 
-    <?php
-    $faq = [
-        "General / About" => [
-            ["q" => "Who will I be working with?", "a" => "You'll be working directly with me, Greg Furnia. I'm a certified personal and professional development coach with over 25 years of law enforcement and leadership experience. Before founding Living the Good Life LLC, I served in special operations, supervision, and training roles, developing and delivering programs for first responders across different stages of their careers. My approach is family-first and values-driven, grounded in real-world experience on the job and at home. I also serve as a Volunteer Executive Career Coach with The Honor Foundation and as a Volunteer Peer Support Provider with UCF RESTORES BlueLine, which keeps me closely connected to the challenges service members, veterans, and first responders face in both their careers and major life transitions."],
-            ["q" => "Who do you work with?", "a" => "I primarily work with first responders, law enforcement professionals, and those who support them — including spouses, partners, and family members. I also work with agencies and departments that want proactive, values-based training around wellness, leadership, career longevity, and retirement readiness."],
-            ["q" => "What services do you offer?","a" => "I offer 1:1 personal and professional development coaching, the Retire Ready Group Coaching Cohort, Retire Ready Pre-Retirement Readiness & Wellness Training for agencies, and the Built to Last career longevity and leadership foundations program for new hires and emerging leaders. I also provide speaking, custom workshops, and training for conferences and special events."],
-            ["q" => "How is coaching different from therapy or counseling?", "a" => "Coaching is future-focused and action-oriented. We work on goals, strategies, and habits to help you move forward — not diagnose or treat mental health conditions. While I strongly support clinical professionals, my role is as a certified coach and peer support provider. When appropriate, I may encourage you to connect with mental health, financial, or legal professionals as part of a well-rounded support plan."],
-            ["q" => "Do I have to be a first responder to work with you?", "a" => "No. While my work is centered on first responders and their families, I occasionally work with other high-stress professionals whose values, needs, and goals align with my approach."],
-            ["q" => "Do you offer virtual or in-person services?", "a" => "Yes. Most 1:1 coaching and group cohort sessions are offered virtually for flexibility and accessibility. Agency training and workshops (Retire Ready and Built to Last) can be delivered in person or virtually, depending on your needs, budget, and logistics."],
-            ["q" => "How do we get started?", "a" => "The first step is a brief introductory conversation to understand what you're looking for and determine the best fit. From there, we'll decide whether 1:1 coaching, the Retire Ready Cohort, or an agency training like Retire Ready or Built to Last is the right next step."],
-            ["q" => "Is our work together confidential?", "a" => "Yes. I treat our conversations with professionalism and discretion. For individuals, what you share stays between us, within legal and ethical limits. For agency-based training, I do not report back personal details from group discussions unless we've agreed in advance on specific feedback for program evaluation or safety reasons."],
-            ["q" => "Do you provide financial, legal, or clinical advice?", "a" => "No. I provide values-based, resource-focused guidance around life transitions, retirement readiness, leadership, and wellness. I do not provide financial, legal, or clinical advice. When needed, I encourage clients to connect with qualified professionals in those areas."],
-            ["q" => "What is your cancellation or rescheduling policy?", "a" => "I have a clear cancellation and rescheduling policy for both individuals and agencies, designed to respect everyone's time while allowing reasonable flexibility. Full details are provided at the time of booking."]
+    <?php $faq = [
+        [
+            "q" => "Who do you work with?",
+            "a" => "<p>I primarily work with <strong>first responders and those who support them</strong>—including law enforcement, fire, EMS, dispatch, corrections, and federal agencies—as well as their <strong>spouses and families</strong>. I also partner with <strong>agencies</strong>, <strong>departments</strong>, and <strong>organizations</strong> that want proactive, values-based wellness and leadership training for their teams.</p>"
         ],
-        "1:1 Personal & Professional Development Coaching" => [
-            ["q" => "How do I know if we're a good fit to work together?", "a" => "We're likely a good fit if our stories and values resonate, and you feel a natural connection to my approach. If you're passionate about working side by side, ready to be honest, and willing to put in the work to create change in your personal and professional life, we'll make a strong team."],
-            ["q" => "What do you expect from me as a client?", "a" => "I expect you to be 100% committed to the change you're seeking. That means showing up, doing the work between sessions, being honest about what's really going on, and being willing to invest in your own happiness, growth, and long-term success."],
-            ["q" => "What kind of commitment do I need to make to see results?", "a" => "Real results come when you're all-in. If you're ready to take responsibility, follow through on action steps, and stay engaged even when it's uncomfortable, coaching can be a powerful catalyst. If you're “trying it out” for someone else, or only half-committed, you're unlikely to get what you're looking for."],
-            ["q" => "What if I'm worried about the cost of coaching?", "a" => "It's normal to think about cost. Coaching, however, is an investment in your life, your relationships, and your future. If cost is your primary concern and outweighs your desire to grow, it may not be the right time. If you see coaching as a way to support your long-term happiness and fulfillment, we're aligned."],
-            ["q" => "When might 1:1 coaching not be right for me?", "a" => "Coaching may not be a good fit right now if you've been pushed into it by someone else, if you're not truly ready to change, or if you're more focused on the price than on the value of the process. Without genuine buy-in, you won't get the results you want."],
-            ["q" => "How often do we meet and how long are sessions?", "a" => "Session length and frequency are tailored to your needs and goals. During our initial conversation, we'll talk through what you're working on and create a coaching rhythm that supports consistent progress without overwhelming your schedule."]
-        ],
-        "Retire Ready - Group Coaching Cohort (Individuals & Families)" => [
-            ["q" => "Who is the Retire Ready Cohort for?", "a" => "Retire Ready is for first responders who are approaching retirement, recently retired, or thinking seriously about life after the job. It's also designed with spouses and partners in mind, recognizing that retirement is a family transition, not just an individual one."],
-            ["q" => "What does the Retire Ready Cohort cover?", "a" => "We focus on the “human side” of retirement: <ul><li>Who you are beyond the badge or uniform</li><li>Identity and purpose in the next chapter</li><li>Communication and connection at home</li><li>Values and lifestyle alignment</li><li>How career trauma and stress may show up in retirement</li><li>Building a practical, values-based plan for life after the job</li></ul>"],
-            ["q" => "How is the cohort structured?", "a" => "Retire Ready runs as a small-group coaching program (typically 6-8 participants) over a set number of weeks. Sessions are live and interactive — not just lectures. You'll have guided discussions, reflection prompts, and practical tools to apply between sessions."],
-            ["q" => "Can my spouse or partner be involved?", "a" => "Yes, and in many cases it's encouraged. Certain parts of the program are ideal for partner participation, while other conversations are reserved for the cohort members only. We'll outline how partner involvement works when you join a cohort."],
-            ["q" => "Is this only for people about to retire right now?", "a" => "No. Many participants are within a couple of years of retirement, but others join earlier to get ahead of the curve. If you're planning for retirement and want to be intentional — instead of just hoping it all works out — this program is for you."],
-            ["q" => "What kind of results can I expect from Retire Ready?", "a" => "You can expect greater clarity about your identity beyond the job, more honest and productive conversations with your family, and a values-driven plan for your next chapter. You'll also gain language and tools to talk about retirement, stress, and expectations in a healthier way. The program provides structure and support — your follow-through brings the results."],
-            ["q" => "Will I be working directly with Greg in the cohort?", "a" => "Yes. All Retire Ready Cohorts are facilitated directly by me, Greg, and I'm present in the sessions with you — not handing you off to someone else."],
-            ["q" => "How do I join the next cohort?", "a" => "You can submit an interest form or booking inquiry through the website. I'll follow up with details on dates, pricing, and expectations, and we'll confirm that the cohort is a good fit before securing your spot."]
-        ],
-        "Agency Trainings (Retire Ready & Built to Last)" => [
-            ["q" => "What is Retire Ready Pre-Retirement Readiness & Wellness Training?", "a" => "Retire Ready for agencies is an instructor-led pre-retirement readiness and wellness training for your personnel. It focuses on the emotional, relational, and identity-based side of retirement — helping members and their families prepare for life after the job, not just the financial aspects."],
-            ["q" => "Who is this training for?", "a" => "This training is ideal for sworn and civilian staff within a few years of retirement or DROP, as well as leaders who want to better support members approaching transition. Agencies may also choose to include spouses and partners for certain components or follow-on resources."],
-            ["q" => "How long is the training and how is it delivered?", "a" => "Retire Ready is typically delivered as a one-day instructor-led training, either on-site or virtually. The day includes interactive modules, guided discussions, and practical tools — not just PowerPoint slides."],
-            ["q" => "How does this benefit the agency?", "a" => "When personnel feel prepared for retirement, they tend to be more focused, engaged, and less anxious in their final years of service. This training supports wellness, morale, and legacy by helping your people exit well — which reflects positively on your department and its culture."],
-            ["q" => "Is this considered wellness or professional development?", "a" => "Both. Retire Ready is framed as Pre-Retirement Readiness and Wellness Training and aligns well with professional development, leadership, and wellness initiatives. It is non-clinical, educational, and focused on proactive planning."],
-            ["q" => "Can the training be customized for our department?", "a" => "Yes. While the core framework stays consistent, we can tailor examples, discussion points, and emphasis areas to your agency's culture, policies, and needs."]
-        ],
-        "Built to Last - Career Longevity & Leadership" => [
-            ["q" => "What is the Built to Last program?", "a" => "Built to Last is a proactive training designed to help first responders build a strong foundation for both career and life in service. It focuses on wellness, communication, family balance, and early leadership development so your people can not only sustain their careers, but truly flourish — at work and at home."],
-            ["q" => "Who is Built to Last designed for?", "a" => "Built to Last fits especially well with new hires, probationary members, and those in FTO or early-career development programs. It's also valuable for emerging leaders and mid-career personnel who want to avoid common pitfalls and build sustainable habits."],
-            ["q" => "How does Built to Last fit into our FTO or training program?", "a" => "Built to Last can be integrated into your existing FTO or new-hire curriculum, or delivered as a standalone workshop. We'll work with your leadership or training staff to align content with your department's values, expectations, and current training structure."],
-            ["q" => "What topics are covered in Built to Last?", "a" => "Core themes include: </p>
+        [
+            "q" => "What types of services do you offer?",
+            "a" => "<p>I offer a combination of:</p>
             <ul>
-                <li>Communication as the foundation</li>
-                <li>Defining &quot;Family&quot; and support systems</li>
-                <li>Values, strengths, and weaknesses</li>
-                <li>Integrity and accountability</li>
-                <li>Purpose and long-term vision</li>
-                <li>Proactive strategies to avoid burnout and common first responder pitfalls</li>
+                <li><strong>Personal & Professional Development (1:1 sessions)</strong> for first responders and their families</li> 
+                <li><strong>Retirement readiness and transition programs</strong> (including the Retire Ready cohort and one-day workshop)</li> 
+                <li><strong>Career longevity and early-career programs</strong> (such as Built to Last)</li>
+                <li><strong>Leadership, wellness, and values-based trainings</strong> for agencies and departments</li> 
+                <li><strong>Speaking and workshop facilitation</strong> for conferences, academies, and internal trainings</li> 
+            </ul> 
+            <p>All services are built around a family-first, values-driven, and proactive approach to life and career.</p>"
+        ],
+        [
+            "q" => "What makes your approach different from other coaching or wellness programs?",
+            "a" => "<p>My approach is shaped by <strong>26 years in federal law enforcement</strong>, including leadership and special operations roles, and by a deep belief that you don't have to sacrifice your family to succeed in your career. I combine:</p>
+            <ul>
+                <li>Real-world first responder experience</li>
+                <li>Certified personal and professional development coaching</li>
+                <li>A <strong>Family First</strong> and values-based framework</li>
+                <li>Practical, proactive tools you can actually use on and off duty</li>
             </ul>
-            <p>The underlying message: You can pursue a successful career and protect your life outside of work."],
-            ["q" => "Is this just a “soft” wellness class? Will our people take it seriously?", "a" => "Built to Last is practical, direct, and grounded in real-world experience. It's not fluff, and it's not about buzzwords. The training respects the realities of the job and gives your people language, tools, and frameworks they can use immediately."],
-            ["q" => "What's the commitment for our agency to host a training?", "a" => "You provide the audience, training space (or virtual platform), and dedicated time on the schedule. I provide the curriculum, materials, and facilitation. Before confirming dates, we'll clarify objectives, logistics, and any department-specific needs so the training delivers maximum value."],
-            ["q" => "How do payments and invoices work for agencies?", "a" => "Agencies typically pay by invoice under agreed-upon terms. Pricing is based on delivery format, group size, customization, and travel if required. You'll receive a clear written proposal that fits your procurement and budgeting process."]
+            <p>Everything is designed to be <strong>straightforward, real, and directly applicable</strong> to first responder life—not theory for people who've never worn the badge.</p>"
+        ],
+        [
+            "q" => "Is this therapy or counseling?",
+            "a" => "<p>No. My services are non-clinical, educational, and coaching-based. I don't diagnose, treat, or provide mental health counseling. Instead, I focus on:</p>
+            <ul>
+                <li>Personal and professional development</li>
+                <li>Values, purpose, and identity</li>
+                <li>Communication, relationships, and leadership</li>
+                <li>Proactive wellness and readiness for each stage of your career</li>
+            </ul>
+            <p>When appropriate, I encourage clients to <strong>combine coaching with clinical support</strong> and can help them think through how to build the right overall support team.</p>"
+        ],
+        [
+            "q" => "Do you work with spouses, partners, and families?",
+            "a" => "<p>Yes. <strong>Family is at the center of everything I do</strong>. Many of my services are intentionally designed to include or support:</p>
+            <ul>
+                <li>Spouses and partners</li>
+                <li>Family members navigating career transitions together</li>
+                <li>“Family” in the broader sense—your support system, mentors, and inner circle</li>
+            </ul>
+            <p>Whether it's 1:1 work, retirement planning, or career longevity conversations, we look at how decisions and changes impact the people closest to you.</p>"
+        ],        
+        [
+            "q" => "What are your credentials and background?",
+            "a" => "<p>I bring a blend of frontline experience and professional coaching training, including:</p>
+            <ul>
+                <li>Certified personal and professional development coach</li>
+                <li>26-year federal law enforcement career, including special operations and leadership roles</li>
+                <li>Program management, leadership development, and emotional intelligence training experience</li>
+                <li>Founder of Living the Good Life LLC and Greg Furnia Life Coaching and Consulting Services</li>
+                <li>Volunteer Executive Career Coach for The Honor Foundation (THF)</li>
+                <li>Volunteer Peer Support Provider for UCF RESTORES / REACT Blue Line</li>
+            </ul>
+            <p>All of this supports a values-based, Family First approach to personal, professional, and leadership development.</p>"
+        ],
+        [
+            "q" => "How are sessions and trainings delivered (online vs. in-person)?",
+            "a" => "<p>I offer a mix of virtual and in-person delivery depending on the service and your needs:</p>
+            <ul>
+                <li>1:1 Personal & Professional Development: Primarily virtual (video), with phone options as needed</li>
+                <li>Group cohorts and workshops: Typically virtual for broader access, with select in-person options</li>
+                <li>Agency/department trainings: Available on-site (in-person, instructor-led training) or live virtual, depending on logistics and budget</li>
+            </ul>
+            <p>We'll choose the format that best supports your goals, location, and scheduling constraints.</p>"
+        ],
+        [
+            "q" => "Do you work directly with agencies and departments?",
+            "a" => "<p>Yes. I partner with <strong>agencies, departments, and training/wellness units</strong> to provide:</p>
+            <ul>
+                <li>Pre-retirement readiness and wellness training</li>
+                <li>Career longevity and early-career programs</li>
+                <li>Leadership, communication, and values-based development</li>
+            </ul>
+            <p>Programs are designed to align with <strong>agency training and wellness standards</strong>, using language that fits professional development and wellness criteria (non-clinical, instructor-led, readiness-focused). I provide <strong>invoices and documentation</strong> that support internal approval and procurement processes.</p>"
+        ],
+        [
+            "q" => "What kind of results can I expect?",
+            "a" => "<p>Results will look different for each person or agency, but common outcomes include:</p>
+            <ul>
+                <li>Clearer <strong>identity and purpose</strong> beyond the badge or role</li>
+                <li>Stronger <strong>communication and connection</strong> at home and at work</li>
+                <li>More intentional decisions around <strong>career, retirement, and lifestyle</strong></li>
+                <li>Practical tools to handle stress, transition, and competing demands</li>
+                <li>For agencies: improved <strong>morale, engagement, and retention</strong> among personnel preparing for or navigating key career stages</li>
+            </ul>
+            <p>I don't promise quick fixes. I focus on <strong>real, sustainable change</strong> driven by your values, effort, and follow-through.</p>"
+        ],
+        [
+            "q" => "How do I get started?",
+            "a" => "<p>For individuals and families, the first step is to reach out and schedule a conversation so we can talk through your goals, current challenges, and what you're hoping to change.</p>
+            <p>For agencies and departments, you can contact me to discuss your needs, audience, and desired outcomes. From there, we'll determine the best program fit and I can provide a clear outline and informational PDF for your team.</p>"
         ]
-    ];
-    // ["q" => "", "a" => ""],
-    ?>
+    ]; ?>
 
     <section id="faq">
         <div class="section-heading">
             <h2>Frequently Asked Questions</h2>
         </div>
         <div class="section-content one-col">
-            <?php foreach ($faq as $category => $items): ?>
             <div class="card">
-                <h3><?= htmlspecialchars($category) ?></h3>
-                <?php foreach ($items as $item): ?>
+                <?php foreach ($faq as $item): ?>
                 <details>
-                    <summary><?= htmlspecialchars($item['q']) ?></summary>
-                    <div class="faq-collapse">
-                        <div class="faq-content">
-                            <p><?= $item['a'] ?></p>
-                        </div>
+                <summary><?= htmlspecialchars($item['q']) ?></summary>
+                <div class="faq-collapse">
+                    <div class="faq-content">
+                    <?= $item['a'] ?>
                     </div>
+                </div>
                 </details>
-                <?php endforeach; ?>
-            </div>
             <?php endforeach; ?>
+            </div>
         </div>
     </section>
 
